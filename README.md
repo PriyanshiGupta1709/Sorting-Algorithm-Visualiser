@@ -1,5 +1,5 @@
 # Sorting Algorithm Visualizer 🚀
-
+**live demo:** https://sorting-algorithm-visualiser-delta.vercel.app/
 An interactive web application built with **React** to visualize and compare the efficiency of various sorting algorithms in real-time. This project was developed to bridge the gap between theoretical time complexity and practical execution.
 
 ## ✨ Key Features
