@@ -1,0 +1,99 @@
+.sidebar {
+    width: 300px !important; /* Slightly smaller to give arrays more room */
+    min-width: 300px !important;
+    max-width: 300px !important;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* This creates a specific row height for each section and forces gaps */
+    grid-auto-rows: max-content; 
+    row-gap: 10px !important; /* This is the "spacing between columns/rows" you asked for */
+    padding: 10px;
+    background-color: #1e1e1e;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    flex-shrink: 0;
+}
+
+.app-title {
+    font-size: 1.5rem;
+    color: #61dafb; /* React Blue */
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px !important;
+    flex-shrink: 0;
+}
+
+.control-group label {
+    font-size: 0.85rem;
+    color: #a0a0a0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px !important; /* This creates the gap between the label and the buttons below it */
+    display: block; /* Ensures the margin is respected */
+    flex-shrink: 0;
+}
+
+/* Algorithm Buttons */
+.algo-btn {
+    padding: 12px;
+    background-color: #2d2d2d;
+    border: 1px solid #404040;
+    color: #d4d4d4;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+}
+
+.algo-btn:hover {
+    background-color: #383838;
+    border-color: #61dafb;
+}
+
+.algo-btn.active {
+    background-color: #2563eb; /* Blue for selected */
+    color: white;
+    border-color: #2563eb;
+}
+
+/* Action Buttons */
+.btn-generate {
+    padding: 12px;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-generate:hover { background-color: #2563eb; }
+
+.btn-sort {
+    padding: 15px;
+    background-color: #10b981; /* Green */
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 30px!important;
+}
+
+.btn-sort:hover { background-color: #059669; }
+
+/* Slider Input */
+input[type=range] {
+    width: 100%;
+    cursor: pointer;
+}
