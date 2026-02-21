@@ -16,6 +16,8 @@ An interactive web application built with **React** to visualize and compare the
 - **Algorithms Implemented:** - **Merge Sort:** $O(n \log n)$
   - **Quick Sort:** $O(n \log n)$ average
   - **Bubble Sort:** $O(n^2)$
+  - **Insertion Sort:** $O(n^2)$
+  - **Heap Sort:** $O(n \log n)$
 
 ## 🚀 Installation & Setup
 1. Clone the repository:
