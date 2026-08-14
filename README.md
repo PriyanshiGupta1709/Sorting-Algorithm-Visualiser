@@ -45,4 +45,4 @@ This application utilizes an optimized **multi-stage Docker build**:
 ### 1. Pull & Run Directly from Docker Hub (Zero Setup)
 ```bash
 # Pull and run the container
-docker run -d -p 3000:80 <YOUR_DOCKERHUB_USERNAME>/algo-visualizer:latest
+docker run -d -p 3000:80 priyanshi011/algo-visualizer:latest
